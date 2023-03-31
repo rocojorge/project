@@ -34,29 +34,29 @@
     <Compile Include="project\asgi.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="project\dog_shelters\admin.py" />
-    <Compile Include="project\dog_shelters\apps.py" />
-    <Compile Include="project\dog_shelters\migrations\__init__.py" />
-    <Compile Include="project\dog_shelters\models.py" />
-    <Compile Include="project\dog_shelters\tests.py" />
-    <Compile Include="project\dog_shelters\views.py" />
-    <Compile Include="project\dog_shelters\__init__.py" />
+    <Compile Include="dog_shelters\admin.py" />
+    <Compile Include="dog_shelters\apps.py" />
+    <Compile Include="dog_shelters\migrations\__init__.py" />
+    <Compile Include="dog_shelters\models.py" />
+    <Compile Include="dog_shelters\tests.py" />
+    <Compile Include="dog_shelters\views.py" />
+    <Compile Include="dog_shelters\__init__.py" />
     <Compile Include="project\__init__.py" />
     <Compile Include="project\settings.py" />
     <Compile Include="project\urls.py" />
     <Compile Include="project\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="project\dog_shelters\templates\dog_shelters\index.html" />
+    <Content Include="dog_shelters\templates\dog_shelters\index.html" />
     <Content Include="project\Notas.txt" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="project\" />
-    <Folder Include="project\dog_shelters\" />
-    <Folder Include="project\dog_shelters\migrations\" />
-    <Folder Include="project\dog_shelters\templates\" />
-    <Folder Include="project\dog_shelters\templates\dog_shelters\" />
+    <Folder Include="dog_shelters\" />
+    <Folder Include="dog_shelters\migrations\" />
+    <Folder Include="dog_shelters\templates\" />
+    <Folder Include="dog_shelters\templates\dog_shelters\" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
