@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "project", "project\project.pyproj", "{B78BB6D0-CBF4-429A-BC83-19A8C3CA1BD1}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database1", "Database1\Database1.sqlproj", "{9C009A84-4C4A-43A0-8544-DDE54322DD9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{B78BB6D0-CBF4-429A-BC83-19A8C3CA1BD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B78BB6D0-CBF4-429A-BC83-19A8C3CA1BD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B78BB6D0-CBF4-429A-BC83-19A8C3CA1BD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C009A84-4C4A-43A0-8544-DDE54322DD9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C009A84-4C4A-43A0-8544-DDE54322DD9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C009A84-4C4A-43A0-8544-DDE54322DD9B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9C009A84-4C4A-43A0-8544-DDE54322DD9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C009A84-4C4A-43A0-8544-DDE54322DD9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C009A84-4C4A-43A0-8544-DDE54322DD9B}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

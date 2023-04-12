@@ -43,3 +43,19 @@ sessions
  [ ] 0001_initial
 
  Aquí se ve todo si
+
+ Para hacer querys a la base de datos hay que usar una sintaxis especifica
+
+ >>> from dog_shelters.models import Shelter, Dog
+>>> shelter = Shelter(name="Demo shelter", location="Seattle, WA")
+>>> shelter.save()
+>>> shelter.location = "Redmond, WA"
+>>> shelter.save()
+>>> Dog(name="Sammy", description="Cute black and white dog", shelter=shelter).save()
+>>> Dog(name="Roscoe", description="Lab mix", shelter=shelter).save()
+>>> shelter.dog_set.all()
+<QuerySet [<Dog: Sammy>, <Dog: Roscoe>]>
+>>> Dog.objects.get(pk=1)
+<Dog: Sammy>
+>>> Dog.objects.filter(shelter__name='Demo shelter')
+<QuerySet [<Dog: Sammy>, <Dog: Roscoe>]>
